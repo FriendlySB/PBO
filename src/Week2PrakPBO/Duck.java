@@ -1,0 +1,17 @@
+package Week2PrakPBO;
+
+public class Duck extends Animal{
+
+    public Duck(String name, int age, String food, String gender, int alive) {
+        super(name, age, food, gender, alive);
+    }
+    
+    public String printSound(){
+        return "Quack";
+    }
+    
+    @Override 
+    public String printData(){
+        return "Animal : Duck\n" + super.printData();
+    }
+}
